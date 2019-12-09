@@ -1,0 +1,73 @@
+
+.v-placeholder-text // 设置placeholder颜色
+  &::-webkit-input-placeholder
+    color: #bfbfbf;
+
+  &:-moz-placeholder
+    color: #bfbfbf;
+
+  &::-moz-placeholder
+    color: #bfbfbf;
+
+  &:-ms-input-placeholder
+    color: #bfbfbf;
+
+.clearfix
+  zoom: 1;
+  &:before, &:after
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+
+.v-right-content
+  padding: 80px 60px 0 60px
+  box-sizing content-box
+.v-charles-w
+  height: calc(100vh - 80px);
+  .charles-m
+    display: flex
+    height: 100%
+    .left-menu
+      width: 320px
+      background-color: #0d1125
+      position: fixed
+      left: 300px
+      top: 80px
+      bottom: 0
+      @media screen and (max-width: 1400px)
+        left: 200px
+        width: 200px
+      .menu-uls
+        .menu-list
+          height: 68px
+          margin: 10px 0
+          display: flex
+          align-items center
+          color #fff
+          font-size: 16px
+          padding-left: 42px
+          cursor pointer
+          &:nth-child(1)
+            margin-top: 0
+          &.active-list
+            color #3376ff
+            background-color: #1d243c
+          .img-box
+            width: 44px
+            height: 44px
+            border-radius 50%
+            background-color: #fff
+            display: flex
+            align-items center
+            justify-content center
+            margin-right: 14px
+    .right-content
+      flex 1
+      position: absolute
+      left: 310px
+      right: 0
+      @media screen and (max-width: 1400px)
+        left: 200px
+        padding-left: 20px

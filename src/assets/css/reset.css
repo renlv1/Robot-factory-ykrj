@@ -1,0 +1,117 @@
+/*重置样式*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+main, menu, nav, output, ruby, section, summary,input,
+time, mark, audio, video ,textarea{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    -webkit-tap-highlight-color: transparent;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section {
+    display: block;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+em, i {
+    font-style: normal;
+}
+
+b, strong, h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+input {
+    font-size: 16px;
+    color: #19191a;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    text-shadow: none;
+    background: none;
+    display: inline-block;
+    -webkit-appearance: none;
+    font-family: "Microsoft YaHei UI";
+}
+
+/*去掉input number上下箭头*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input, textarea {
+    -webkit-user-modify: read-write-plaintext-only;
+}
+
+input:focus {
+    outline: none;
+}
+
+input, button {
+    outline: none;
+}
+
+textarea{
+    border: none;
+    resize: none;
+    outline: none;
+    background-color: transparent;
+    font-family: "Microsoft YaHei UI";
+}
+
+.clearfix:after {
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0;
+}
+.no-data-img {
+    position: fixed;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    z-index: 3000;
+}
+input, button, select, textarea {
+    outline: none
+}
+.before-trigger{
+    font-size: .28rem !important;
+    color: #19191a !important;
+}
